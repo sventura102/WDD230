@@ -11,6 +11,11 @@ body {
     font-family: "Karla", sans-serif;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin: 0.15rem;
+}
+
 header, footer {
     border-radius: 10px;
 }
