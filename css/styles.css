@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Karla", sans-serif;
+    color: #000;
+}
+
+header {
+    display: block;
+    text-align: center;
+    background-color: lightskyblue;
+}
