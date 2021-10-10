@@ -1,16 +1,44 @@
+@charset "utf-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-body{
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Karla", sans-serif;
-    color: #000;
+html {
+    background-color: #F6BD60;
+}
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
 }
 
 header {
     display: block;
     text-align: center;
     background-color: lightskyblue;
+}
+
+h1 {
+    font-family: "Spectral", serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+nav {
+    background-color: #F6B;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+footer{
+    background-color: #84A59D;
+    padding: 1em;
 }
