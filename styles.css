@@ -20,3 +20,18 @@ header, footer {
 .header-img {
     width: 20%;
 }
+
+nav {
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  nav > ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  footer {
+      padding: 1em;
+  }
