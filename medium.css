@@ -5,4 +5,15 @@
     h2{
         font-size: 1.5rem;
     }
+
+    header, footer {
+        text-align: center;
+        background-color:#84A59D;
+        color: white;
+        border-radius: 10px;
+    }
+
+    header img {
+        float: right;
+    }
 }

@@ -12,13 +12,11 @@ body {
 }
 
 header, footer {
-    text-align: center;
-    color:white; 
-    background-color: #84A59D;
     border-radius: 10px;
 }
-.header-img {
+header img {
     width: 20%;
+    height: auto;
 }
 
 nav {
