@@ -10,3 +10,18 @@ body {
     line-height: 1.5;
     font-family: "Karla", sans-serif;
 }
+
+header {
+    text-align: center;
+    color:white;
+}
+.header-img {
+    width: 200px;
+    height: auto;
+    float: right;
+
+}
+footer {
+    background-color: #84A59D;
+    border-radius: 10px;
+}
