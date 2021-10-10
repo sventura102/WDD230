@@ -11,17 +11,15 @@ body {
     font-family: "Karla", sans-serif;
 }
 
-header {
+header, footer {
     text-align: center;
-    color:white;
+    color:white; 
+    background-color: #84A59D;
+    border-radius: 10px;
 }
 .header-img {
-    width: 200px;
+    width: 60px;
     height: auto;
     float: right;
 
-}
-footer {
-    background-color: #84A59D;
-    border-radius: 10px;
 }
