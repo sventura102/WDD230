@@ -4,14 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
-html {
-    background-color: #F6BD60;
-}
 body {
     max-width: 900px;
-    margin: 0 auto;
-    background-color: white;
+    margin: 10 auto;
+    background-color:#84A59D;
     padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, auto);
+    align-items: start;
+    grid-gap: 1em;
+    border-radius: 8px;
 }
 
 header {
