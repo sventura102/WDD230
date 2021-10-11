@@ -1,9 +1,6 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 920px) {
     main {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    h1 {
-        font-size: 20px;
+        grid-template-columns: (3, 1fr);
     }
 }

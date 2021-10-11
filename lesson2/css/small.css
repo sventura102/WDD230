@@ -46,7 +46,17 @@ main {
     grid-gap: 1em;
 }
 
-.proximity {
+.proximity{
     text-align: center;
     margin-top: -20px;
+}
+
+.alignment{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.repetition{
+    text-align: center;
 }
