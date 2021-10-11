@@ -39,7 +39,11 @@ h3 {
 }
 
 /* main */
-
+main {
+    display: grid;
+    grid-template-columns: auto 0;
+    grid-gap: 15px;
+}
 a {
     display: block;
     margin: 0;
