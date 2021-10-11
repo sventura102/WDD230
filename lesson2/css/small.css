@@ -52,7 +52,6 @@ main {
 }
 
 .alignment{
-    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -60,3 +59,10 @@ main {
 .repetition{
     text-align: center;
 }
+
+/* footer */
+
+footer {
+    background-color: #84A59D;
+    padding: 1em;
+  }
