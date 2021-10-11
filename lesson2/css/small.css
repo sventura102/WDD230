@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+/*headers */
+header {
+    text-align: center;
+    background-color: #84A59D;
+    font-style: "Spectral", serif;
+    font-size: 30px;
+    color: white;
+}
+
+h1 {
+    font-size: 25px;
+    font-style: "Spectral", serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: "Spectral", serif;
+    color: white;
+    background-color: #84A59D;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-style: "Karla", sans-serif;
+}
+
+/* main */
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+}
+
