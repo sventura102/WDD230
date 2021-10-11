@@ -6,36 +6,39 @@
 
 
 body {
-    font-size: 18px;
-    line-height: 1.5;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+  }
+  header {
+      font-family: "Karla", serif;
+  }
+  h2 {
     font-family: "Karla", sans-serif;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin: 0.15rem;
-}
-
-header, footer {
-    border-radius: 10px;
-}
-
-header img {
-    width: 20%;
-    height: auto;
-}
-
-nav {
-    line-height: 3em;
+    padding: 5px 25px;
+    font-size: 25px;
+    text-align: left;
+    margin: 0;
+  }
+  
+  h3 {
+    font-family: "Spectral", serif;
+    font-size: 18px;
+  }
+  
+  p {
+    font-family: "Spectral", serif;
+    font-size: 25px;
     text-align: center;
-    font-size: 1.2em;
   }
+  
+  h1  {
+    font-family: "Spectral", serif;
+    font-size: 25px;
+    text-align: center;
+  }
+   main {
+       display: grid;
+   }
 
-  nav > ul {
-    list-style-type: none;
-    display: flex;
-  }
-
-  footer {
-      padding: 1em;
-  }
