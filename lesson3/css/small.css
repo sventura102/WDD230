@@ -58,7 +58,6 @@
 	display: flex;
 	margin: 0;
 	padding: 22px;
-	background-color: #ffcf56;
   }
 
   nav a {
@@ -85,4 +84,6 @@
 	width: 100px;
 	padding: 20px;
   }
-  
+  .img-box {
+	padding: 20px;
+  }
