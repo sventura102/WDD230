@@ -41,32 +41,21 @@
   header {
 	display: grid;
 	grid-template-columns: 100px auto;
-
+	background-color: #ffcf56;
   }
   
-  nav {
-	background-color: #FFCF56;
-	line-height: 1em;
-	font-size: 30px;
+  nav li{
+	  text-align: center;
   }
-  
-  nav {
-	padding:1em;
-	min-width: 70px;
-  }
-
-  nav :hover {
-	color: #F5CAC3;
-	background-color: #84A59D;
-  }
-  
   nav > ul {
-	list-style-type: none;
-	display: flex;
-  
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+	margin: 0;
+	padding: 1em;
   }
 
-  nav a{
+  nav a {
 	padding:1em;
 	min-width: 70px;
   }
@@ -75,12 +64,13 @@
   }
 
   nav a:hover {
-	color: #F5CAC3;
+	color: #3ab795;
 	background-color: #84A59D;
   }
   
   footer {
-	background-color: #84A59D;
+	align-items: center;
+	background-color: #ffcf56;
 	padding: 1em;
 	text-align: center;
   }
