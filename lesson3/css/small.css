@@ -55,8 +55,7 @@
   nav > ul {
 	background-color: #ffcf56;
 	list-style: none;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+	display: flex;
 	margin: 0;
 	padding: 22px;
 	background-color: #ffcf56;
