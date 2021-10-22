@@ -17,7 +17,14 @@ h1 {
 }
 
 header, footer {
+    display: block;
+    border-radius: 25px;
     border-radius: 10px;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
 }
 header img {
     width: 20%;
@@ -36,5 +43,6 @@ nav {
   }
 
   footer {
+      text-align: center;
       padding: 1em;
   }
