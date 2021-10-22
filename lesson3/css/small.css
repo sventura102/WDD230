@@ -61,14 +61,14 @@
 	min-width: 70px;
   }
   nav a:link, nav a:visited {
-	color: #84A59D;
+	color: #86baa1;
   }
 
   nav a:hover {
-	color: #3ab795;
-	background-color: #84A59D;
-  }
-  
+	color: #a0e8af;
+	background-color: #3ab795;
+  } nav a:link, nav a:visited {
+
   footer {
 	align-items: center;
 	background-color: #ffcf56;
@@ -84,3 +84,11 @@
   .img-box {
   	padding-left: 30px;
   }
+
+.color-img {
+	width: 100px;
+	padding: 20px;
+}
+.color-box {
+	padding: 30px;
+}
