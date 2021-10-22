@@ -29,7 +29,12 @@
   
   p {
 	font-family: "Merriweather", serif;
-	font-size: 25px;
+	padding-left: 25px;
+  }
+
+  a {
+	font-family: "Merriweather", serif;
+	padding-left: 25px;
   }
   
   h1  {
@@ -41,18 +46,19 @@
   header {
 	display: grid;
 	grid-template-columns: 100px auto;
-	background-color: #ffcf56;
   }
   
-  nav li{
+  nav li {
 	  text-align: center;
   }
   nav > ul {
+	background-color: #ffcf56;
 	list-style: none;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
 	margin: 0;
-	padding: 1em;
+	padding: 22px;
+	background-color: #ffcf56;
   }
 
   nav a {
@@ -73,5 +79,10 @@
 	background-color: #ffcf56;
 	padding: 1em;
 	text-align: center;
+  }
+
+  .header-img {
+	width: 100px;
+	padding: 20px;
   }
   
