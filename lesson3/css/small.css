@@ -22,11 +22,6 @@
 	margin: 0;
   }
   
-  h3 {
-	font-family: "Merriweather", modern;
-	font-size: 18px;
-  }
-  
   p {
 	font-family: "Merriweather", serif;
 	padding-left: 25px;
@@ -39,7 +34,7 @@
   
   h1  {
 	font-family: "Oswald", modern;
-	font-size: 25px;
+	font-size: 30px;
 	text-align: left;
   }
   
