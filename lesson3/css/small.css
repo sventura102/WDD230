@@ -47,15 +47,16 @@
 	display: grid;
 	grid-template-columns: 100px auto;
 	align-items: center;
+	background-color: #ffcf56;
   }
   
   nav li {
 	  text-align: center;
   }
   nav > ul {
-	background-color: #ffcf56;
 	list-style: none;
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
 	margin: 0;
 	padding: 22px;
   }
