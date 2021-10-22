@@ -17,8 +17,9 @@ h1 {
 }
 
 header, footer {
-    display: block;
-    border-radius: 25px;
+    text-align: center;
+    background-color:#84A59D;
+    color: white;
     border-radius: 10px;
 }
 
@@ -29,6 +30,8 @@ header {
 header img {
     width: 20%;
     height: auto;
+    box-shadow: 0 0 30px;
+    float: center;
 }
 
 nav {
