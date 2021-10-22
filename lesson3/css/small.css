@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@500&display=swap');
 
-tml {
-	background-color: #F6BD60;
+html {
+	background-color: #EDEAD0;
   }
   
   body {
 	max-width: 900px;
 	margin: 0 auto;
-	background-color: white;
 	padding: 1em;
+	background-color: #A0E8AF;
   }
   
   h2 {
@@ -36,12 +36,14 @@ tml {
   }
   
   header {
+	max-width: 900px;
 	display: grid;
 	grid-template-columns: 100px auto;
+	align-items: center;
   }
   
   nav {
-	background-color: #F6BD60;
+	background-color: #86BAA1;
 	line-height: 3em;
 	text-align: center;
 	font-size: 1.2em;
@@ -78,9 +80,9 @@ tml {
   }
   
   footer {
-	background-color: #84A59D;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	max-width: 900px;
+	background-color: #86BAA1;
+	align-items: center;
 	padding: 1em;
   }
   
