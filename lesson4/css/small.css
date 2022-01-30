@@ -32,14 +32,6 @@ p {
     padding-left: 25px;
 }
 
-main .boxes{
-    box-align: center;
-    width: flex;
-    border: 3px solid black;
-    padding: 50px;
-    margin: 20px;
-}
-
 .social {
 	margin-left: 1.5rem;
 }
@@ -103,9 +95,25 @@ footer {
 	font-size: smaller;
 }
 
-date {
+.date {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem;
 	background-color: #eee;
+}
+
+.action, .new-release, .join, .event, .weather {
+    box-align: center;
+    width: flex;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.spot-1, .spot-2, .spot-3 {
+    box-align: center;
+    width: 100px;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
 }
