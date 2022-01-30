@@ -1,2 +1,7 @@
-var x = document.lastModified;
-document.getElementById("currentdate").innerHTML = x;
+const datefield = document.getElementById('currentTime')
+
+const fulldate = new Intl.DateTimeFormat('en-Us',{
+    dateStyle: "full"
+}).format(date);
+
+datefield.innerHTML = fulldate;

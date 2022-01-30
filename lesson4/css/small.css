@@ -26,13 +26,27 @@ h2 {
     margin: 0;
 }
 
-footer {
-    color: #eee;
-}
 p {
     text-align: center;
     font-family: "Merriweather", serif;
     padding-left: 25px;
+}
+
+main .boxes{
+    box-align: center;
+    width: flex;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.social {
+	margin-left: 1.5rem;
+}
+
+.social svg {
+	width: 25px;
+	height: auto;
 }
 
 nav {
@@ -79,3 +93,19 @@ nav ul.open {display: block;}
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
+
+footer {
+    color: #eee;
+}
+
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+}
+
+date {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0.75rem;
+	background-color: #eee;
+}
