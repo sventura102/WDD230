@@ -1,5 +1,8 @@
 @media only screen and (min-width: 470px){
-    main{
-        grid-template-columns: (2, 1fr);
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .proximity {
+       grid-column: 2/1;
     }
 }

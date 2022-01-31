@@ -41,7 +41,7 @@ h3 {
 /* main */
 main {
     display: grid;
-    grid-template-columns: auto 0;
+    grid-template-columns: 1fr;
     grid-gap: 15px;
 }
 a {
