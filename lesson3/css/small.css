@@ -39,8 +39,7 @@
   }
   
   header {
-	display: grid;
-	grid-template-columns: 100px auto;
+	align-content: center;
 	align-items: center;
 	background-color: #ffcf56;
   }
@@ -48,18 +47,19 @@
   nav li {
 	  text-align: center;
   }
-  nav > ul {
+  nav ul {
 	list-style: none;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
 	margin: 0;
 	padding: 22px;
   }
 
-  nav a {
-	padding:1em;
+  nav ul li a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
 	min-width: 70px;
   }
+
   nav a:link, nav a:visited {
 	color: #86baa1;
   }
@@ -67,9 +67,9 @@
   nav a:hover {
 	color: #a0e8af;
 	background-color: #3ab795;
-  } nav a:link, nav a:visited {
+  } 
 
-  footer {
+footer {
 	align-items: center;
 	background-color: #ffcf56;
 	padding: 1em;
