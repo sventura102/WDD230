@@ -53,7 +53,7 @@ label {
 
 ul {
 	margin: 1rem;
-	list-style: none;
+	list-style-type: none;
 }
 
 li {
