@@ -3,28 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://sventura102.github.io/WDD230/css/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
     </head>
     <body>
         <header>        
             <h1>Ward 3</h1>
             <h2>Chamber of Commerce</h2>
-            <div class="social">
-                <picture>
-                    <a href="http://linkedin.com/"><img class="placeholder"</a>
-                </picture>
-                <picture>
-                    <a href="http://facebook.com/"><img class="placeholder"</a>
-                </picture>
-            </div>
             <nav>
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primaryNav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discovery.html">Discovery</a></li>
                     <li><a href="join.html">Join</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contact.html">Contact Us</a>
+                    
+                    <div class="social">
+                    <li><a href="http://facebook.com/"><img src="images/facebook.png" alt="a facebook logo" width="25px"></img></a></li>
+                    <li><a href="http://linkedin.com/"><img src="images/linkedin.png" alt="a linkedin logo" width="25px"></img></a></li>
+                    </div>
+                    </li>
                 </ul>    
             </nav>
             <div class="date">
@@ -46,9 +46,14 @@
             </div>
         </main>
         <footer>
+            <h1>Ward 3 Chamber of Commerce</h1>
+            <p class="address">1510 E Grant Rd, Tucson, AZ 85719</p>
+            <p class="website">info@wardthreecc.org</p>
+            <p class="number">+1(800)777-5555</p>
+            <a href="https://goo.gl/maps/Qucc7cS4cJ1ktMx4A">📍 Directions</a>
             <p>&copy; 2022 | Stephanie Ventura | Las Vegas, NV <div id="lastModified"></div></p>
         </footer>
-        <script src="js\nav.js"></script>
-        <script src="js\lastModified.js"></script>
+        <script src="js/date.js"></script>
+        <script src="js/lastmodified.js"></script>
     </body>
 </html>
