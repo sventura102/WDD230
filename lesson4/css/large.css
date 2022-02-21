@@ -7,26 +7,15 @@ div.boxes {
     "e f f c";
 }
 
-div.action {
-    grid-area: b;
-}
+div.action {grid-area: b;}
 
-div.new-release {
-    grid-area: a;
-}
+div.new-release {grid-area: f;}
 
-div.spotlight-section {
-    grid-area: c;
-}
+div.spotlight-section {grid-area: c;}
 
-div.join {
-    grid-area: inherit;
-}
-div.event {
-    grid-area: d;
-}
+div.join {grid-area: inherit;}
 
-div.weather {
-    grid-area: f;
-}
-}
+div.event {grid-area: a;}
+
+div.weather {grid-area: d;}
+} /* end large*/

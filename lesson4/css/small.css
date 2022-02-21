@@ -23,7 +23,7 @@ header {
 
 h1 {
     text-align: center;
-    color:white;
+    color:black;
     font-family: "Oswald", modern;
 }
 h2 {
@@ -132,14 +132,21 @@ footer {
     box-align: center;
     width: flex;
     border: 3px solid black;
-    padding: 50px;
+    padding: 0px;
+    margin: 20px;
+}
+
+.spotlight-section {
+    border: 2px solid black;
+    width: flex;
+    padding: 10px;
     margin: 20px;
 }
 
 .spot-1, .spot-2, .spot-3 {
     box-align: center;
-    width: 100px;
+    width: flex;
     border: 3px solid black;
-    padding: 50px;
+    padding: 15px;
     margin: 20px;
 }

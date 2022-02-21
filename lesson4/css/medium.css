@@ -17,7 +17,23 @@
 
     div.boxes {
         display: grid;
-        grid-template-columns: 
-        "";
+        grid-template-areas: 
+        "a a a a"
+        "b b b b"
+        "c c c c"
+        "d d d d"
+        "e e e f";
     }
+
+    div.action{grid-area: a;}
+
+    div.new-release{ grid-area: b;}
+
+    div.spotlight-section{ grid-area: c;}
+
+    div.join {grid-area: d;}
+
+    div.event {grid-area: e;}
+
+    div.weather {grid-area: f;}
     } /*end medium */
