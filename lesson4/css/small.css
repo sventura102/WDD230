@@ -13,6 +13,14 @@ body {
     background-color: #1D3557;
 }
 
+header {
+    align-content: center;
+    align-items: center;
+}
+.header-img {
+	padding-left: 20px;
+}
+
 h1 {
     text-align: center;
     color:white;
@@ -21,8 +29,7 @@ h1 {
 h2 {
     color:white;
     font-family: "Oswald", modern;
-    padding: 5px 25px;
-    text-align: center;
+    padding-left: 20px;
     margin: 0;
 }
 
@@ -86,6 +93,25 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+/*body */
+div.boxes {
+    display: grid;
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+}
+
+div.action {grid-area: a;}
+div.event {grid-area: b;}
+div.weather{grid-area: c;}
+div.new-release {grid-area: d;}
+div.spotlight-section {grid-area: f;}
+
+/*footer */
 footer {
     color: #eee;
 }
