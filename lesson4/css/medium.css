@@ -4,7 +4,7 @@
     nav button {display: none;}
     
     nav ul#primaryNav {
-        display: flex;;
+        display: flex;
         justify-content: flex-start;
         margin-left: 2vw;
         border-left: 1px solid rgba(0, 0, 0, 0.3);
@@ -14,4 +14,10 @@
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         }
+
+    div.boxes {
+        display: grid;
+        grid-template-columns: 
+        "";
+    }
     } /*end medium */
