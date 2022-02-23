@@ -40,8 +40,14 @@
         <main>
             <div class="boxes">
                 <div class="action">
-                    <h1>Welcome to Ward 3</h1>
+                    <h1>Welcome to Ward 3</h1>                
+                    <figure class="action-img">
+                    <img src="images/wdd230-org.jpg" alt="hero banner" sizes="50vw"
+                    srcset="images/wdd230-200.jpg 200w,
+                    images/wdd230-500.jpg 500w, images/wdd230-800.jpg 800w">
+                </figure>
                 </div>
+
                 <div class="new-release">
                     <h1>Event</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -74,8 +80,15 @@
                         Ultrices vitae auctor eu augue ut lectus. </p>
                 </div>
                 <div class="weather">
-                    <h1>Weather</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices vitae auctor eu augue ut lectus.</p>
+                    <h1>Today's Weather</h1>
+                    <p>
+                        <ul>
+                            <li>38&deg;F<li>
+                            <li>Partly Cloudy</li>
+                            <li>Wind Speed: 7 mph</li>
+                            <li>Wind Chill: <div id="windChill"></div></li>
+                        </ul>
+                    </p>
                 </div>
             </div>
         </main>

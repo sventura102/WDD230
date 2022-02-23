@@ -47,7 +47,7 @@ p {
 	width: 25px;
 	height: auto;
 }
-
+/* navigation */
 nav {
     background-color: #457B9D;
 }
@@ -110,6 +110,13 @@ div.event {grid-area: b;}
 div.weather{grid-area: c;}
 div.new-release {grid-area: d;}
 div.spotlight-section {grid-area: f;}
+
+main figure.action-img{
+    width: 50%;
+    margin: 2px;
+    float: center;
+    padding-left: 25px;
+}
 
 /*footer */
 footer {
