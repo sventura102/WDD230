@@ -1,3 +1,5 @@
+//example by Kevin Powell YT
+
 const images = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {

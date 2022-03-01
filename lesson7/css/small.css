@@ -12,6 +12,8 @@
   body {
     background-color: #edead0;
     font-family: "Merriweather", modern;
+	display: grid;
+	justify-content: center;
   }
   
   h2 {
