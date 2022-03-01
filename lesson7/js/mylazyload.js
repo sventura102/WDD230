@@ -1,9 +1,10 @@
 //set parameters
-const imagesToLoad = document.querySelectorAll("[data-src]")
+//set parameters
+const imagesToLoad = document.querySelectorAll('[data-src]');
 
-const imgOptions= {
+const imgOptions = {
     threshold: 1,
-    rootMargin: "0px 0px 50px 0px"
+    rootMargin: '0px 0px 50px 0px'
 };
 
 const loadImages = (image) => {
