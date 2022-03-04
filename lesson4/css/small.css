@@ -157,3 +157,18 @@ footer {
     padding: 15px;
     margin: 20px;
 }
+
+/* Discovery */
+
+section.discovery div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    align-items: center;
+}
+
+picture.discovery-img {
+    width: auto;
+}
+
+

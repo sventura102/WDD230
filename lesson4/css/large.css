@@ -18,4 +18,9 @@ div.join {grid-area: inherit;}
 div.event {grid-area: a;}
 
 div.weather {grid-area: d;}
-} /* end large*/
+
+.action-img {
+ width: 1px;   
+}
+/* Discovery */
+}

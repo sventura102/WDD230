@@ -36,4 +36,21 @@
     div.event {grid-area: e;}
 
     div.weather {grid-area: f;}
+
+    /* Discovery Page */
+    section.discovery div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    section.discovery div.img-left picture {
+        order: 2;
+    }
+
+    section.discovery div.img-left p {
+        order: 1;
+    }
     } /*end medium */
