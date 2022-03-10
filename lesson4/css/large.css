@@ -22,5 +22,24 @@ div.weather {grid-area: d;}
 .action-img {
  width: 1px;   
 }
-/* Discovery */
+/* ---JOIN --- */
+
+.join-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form fieldset {
+    margin-left: 0;
+}
+.join-title {
+    grid-column: 2;
+}
+
+.membershipLevels {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 10px;
+}
+ .button {margin-left: 0;}
 }

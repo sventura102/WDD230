@@ -38,14 +38,14 @@
                 <span id="currentdate">Saturday, January 29, 2022</span>
             </div>
         </header>
-        <main>
-            <h1>Membership Application</h1>
-            <form method="get" action="thankyou.html">
+        <main class="join-main">
+            <h1 class="join-title">Membership Application</h1>
+            <form method="get" action="thankyou.html" div="app">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label class="top">First Name*<input type="text" name="fname" required></label>
                     <label class="top">Last Name*<input type="text" name="lname" required></label>
-                    <label class="top">Business Position<input type="text"></label>
+                    <label class="top">Business Position<input type="text" name="position" pattern="[A-Z a-z -]{7}"></label>
                     <label class="top">E-mail<input type="text" name="email" required placeholder="name@gmail.com"></label>
                     <label class="top">Phone<input type="tel" name="phone" required></label>
                     <label class="top">Business Name<input type="text" name="business" required></label>
@@ -63,8 +63,57 @@
                     <div>Tell us about your business</div>
                     <textarea row="4" cols="50" name="description" placeholder="Start typing here..."></textarea>
                 </fieldset>
-                <input type="submit" value="Join Today" class="submitBtn">
+                <input type="submit" value="Join Today!" class="submitBtn">
             </form>
+            <div class="membershipLevels" >
+                <section>
+                    <h2 class="gold">Gold - $2,500+/year</h2>
+                    <h3>All Benefits of Silver Membership, plus...</h3>
+                    <p>
+                        <ul>
+                            <li>Premium Membership Listing Including Logo and Five or more Listings in Online Business Directory (by Location, Co-Owned Business or Business Category)</li>
+                            <li>Access to key business and governmental leaders.</li>
+                            <li>Eligible to serve on the Board of Directors and key committees</li>
+                            <li>Membership Award to business.</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <h2 class=silver>Silver - $1,000/year</h2>
+                    <h3>All Benefits of Bronze Membership, plus...</h3>
+                    <p>
+                        <ul>
+                            <li>Three Listings in Online Business Directory (by Location, Co-Owned Business or Business Category)</li>
+                            <li>Four VIP Event Passes</li>    
+                            <li>Invitation to Two Investor-Only Events</li>
+                            <li>Excel membership database available upon request.</li>
+                            <li>Access to Chamber Economic Development Data.</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <h2 class="bronze">Bronze - $400/year</h2>
+                    <h3>All Benefits of Non-profit Membership, plus...</h3>
+                    <p>
+                        <ul>
+                            <li>Single Listing in Online Business Directory</li>
+                            <li>Money-Saving Benefits. Use of Chamber Conference Rooms.</li>
+                            <li>Two Free VIP Event Passes. Access to all general Chamber events and programs.</li>
+                            <li>Promotion of Member News, Events and Discounts</li>
+                        </ul>
+                    </p>
+                </section>
+                <section>
+                    <h2 class="nonprof">Non-proft - FREE</h2>
+                    <p>
+                        <ul>
+                            <li>One registration to Chamber Launch</li>
+                            <li>Two registrations to one Business After Hours event (must attend Chamber Launch)</li>
+                        </ul>
+                    </p>
+                </section>
+            </div>
+
         </main>
         <footer>
             <div class="foot-img-box">
