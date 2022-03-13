@@ -36,5 +36,5 @@ fetch(requestURL)
   card.appendChild(portrait);
 
   // Add/append the existing HTML div with the cards class with the section(card)
-  cards.appendChild(card)
+  cards.appendChild(card);
   }
