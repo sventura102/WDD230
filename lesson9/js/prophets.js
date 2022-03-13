@@ -2,25 +2,26 @@ const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
-    // temporary checking for valid response and data parsing
-  });  
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);  // temporary checking for valid response and data parsing
+        const prophets = jsonObject['prophets'];
+        prophets.forEach(displayProphets);
+    });
 
   function displayProphets(prophet) {
-    // Create elements to add to the document
+  // Create elements to add to the document
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let portrait = document.createElement('img');
   let p1 = document.createElement('p');
   let p2 = document.createElement('p');
+  let order = ``;
 
   // Change the textContent property of the h2 element to contain the prophet's full name
-  h2.textContent = `${prophet.name} ${prophet.lastname}`;
+  h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
   p1.textContent = `Date of Birth: ${prophet.birthdate}`;
   p2.textContent = `Place of Birth: ${prophet.birthplace}`;
 

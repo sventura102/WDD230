@@ -1,0 +1,62 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@500&family=Ubuntu:wght@300&display=swap')");
+
+header {
+  text-align: center;
+  box-shadow:rgb(0, 0, 0)
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.6rem;
+}
+
+h2 {
+
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: medium;
+    margin-top: 0;
+    text-align: center;
+}
+
+main.section {
+    margin-left: 2rem;
+}
+
+main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(255, 218, 253);
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    margin-top: 15px;
+    width: auto;
+	max-width: 500px;
+    box-shadow: 0 0 30px rgb(34, 5, 5);
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+footer {
+    border-top: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
