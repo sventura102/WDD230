@@ -1,0 +1,99 @@
+{
+    "businesses":[
+        {
+            "imageurl": "https://gdsconnect.com/wp-content/uploads/2019/07/logo-copy.png",
+            "name": "Global Data Systems",
+            "address": "110377 Smokemont Court Las Vegas, NV 89129",
+            "number": "(702) 389-3436",
+            "link": "https://www.gdsconnect.com"
+        },
+
+        {
+            "imageurl": "https://thelovaascenter.com/wp-content/uploads/2021/04/mobile-logo.png",
+            "name": "The Lovaas Center",
+            "address": "5550 W Flamingo Ste C5 Las Vegas, NV 89103",
+            "number": "(702) 877-2520",
+            "link": "https://www.thelovaascenter.com/"
+        },
+
+        {
+            "imageurl": "https://www.csn.edu/__data/assets/image/0009/1260/header-logo-new.png",
+            "name": "College of Southern Nevada",
+            "address": "6375 W Charleston Boulevard WCE310 Las Vegas, NV 89146",
+            "number": "(702) 651-5000",
+            "link": "https://csn.edu/"
+        },
+
+        {
+            "imageurl": "https://www.ahdvegas.com/images/ahd-logo3.png",
+            "name": "Academy of Hair Design",
+            "address": "5191 W Charleston Boulevard Ste 150 Las Vegas, NV 89146",
+            "number": "(702) 878-1185",
+            "link": "https://ahdvegas.com/"
+        },
+
+        {
+            "imageurl": "https://news3lv.com/resources/assets/ksnv/images/logos/ksnv-logo.svg",
+            "name": "KSNV TV3",
+            "address": "1500 Foremaster Lane Las Vegas, NV 89101",
+            "number": "(702) 642-3333",
+            "link": "https://news3lv.com/"
+        },
+
+        {
+            "imageurl": "https://crumblcookies.com/images/crumbl.svg",
+            "name": "Crumbl Cookies",
+            "address": "8545 W Warm Springs Road A4 155 Las Vegas, NV 89113",
+            "number": "(435) 467-9684",
+            "link": "https://www.crumblecookies.com"
+        },
+
+        {
+            "imageurl": "https://coolcatspygadgets.com/wp-content/uploads/2021/09/logo-1-155x159.jpg",
+            "name": "Cool Cat Spy Gadgets",
+            "address": "2187 Decatur Blvd #130, Las Vegas, NV 89108",
+            "number": "(702) 476-9900",
+            "link": "https://coolcatspygadgets.com/"
+        },
+
+        {
+            "imageurl": "https://cor-liv-cdn-static.bibliocommons.com/images/NV-VEGAS/logo.png?1647181850497",
+            "name": "Las Vegas Clark County Library District",
+            "address": "7060 W Windmill Lane, Las Vegas, NV 89113",
+            "number": "(702) 507-3530",
+            "link": "https://lvccld.org/"
+        },
+
+        {
+            "imageurl": "https://www.desertspringshospital.com/sites/desertspringshospital.com/files/DSHMC__logo.png",
+            "name": "Desert Springs Hosptial",
+            "address": "2075 E Flamingo Road, Las Vegas, NV 89119",
+            "number": "(702) 733-8800",
+            "link": "https://www.desertspringshospital.com/"
+        },
+
+        {
+            "imageurl": "https://sikaramedspa.com/wp-content/uploads/2020/06/sikara-medspa-logo-las-vegas-nv-1.png",
+            "name": "Sikara MedSpa",
+            "address": "1955 Festival Plaza Ste 180, Las Vegas, Nv 89135",
+            "number": "(702) 778-6886",
+            "link": "https://sikaramedspa.com/"
+        },
+
+        {
+            "imageurl": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/nlcmcobkbkhox1cypzft",
+            "name": "The Smith Center for the Performing Arts",
+            "address": "361 Symphony Park Ave, Las Vegas, NV, 89106",
+            "number": "(702) 269-5005",
+            "link": "https://thesmithcenter.com/"
+        },
+
+        {
+            "imageurl": "https://www.thevoxagency.com/wp-content/uploads/2020/05/Vox_mobile_logo_new1.png",
+            "name": "The Vox Agency",
+            "address": "4071 Wild Eagle Circle, Las Vegas, NV, 89129",
+            "number": "(702) 249-2977",
+            "link": "https://www.thevoxagency.com/"
+        }
+    ]
+}
