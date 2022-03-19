@@ -11,8 +11,9 @@ function preloadImage(img) {
     if (!src) {
         return;
     }
-
+    console.log(img.src);
     img.src = src;
+    console.log(img.src);
 }
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {

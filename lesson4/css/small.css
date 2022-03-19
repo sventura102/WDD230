@@ -238,3 +238,38 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
+ /*--business directory--*/
+
+.directory-buttons {
+    margin: 1.5rem;
+    text-align: center;
+}
+.directory-buttons button{
+    padding: .35rem;
+    margin: .3rem
+}
+
+.directory-buttons div {
+    display: inline;
+}
+ 
+.business {
+    margin: 0px; 
+}
+
+.business section {
+    background-color: #457B9D;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 3px;
+    border: 1px solid #D4D3D3;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.business img {
+    width: 30%;
+}
+
+
