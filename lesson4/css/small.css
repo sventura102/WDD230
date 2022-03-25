@@ -103,6 +103,7 @@ div.boxes {
     "d"
     "e"
     "f";
+    row-gap: 1rem;
 }
 
 div.action {grid-area: a;}
@@ -272,4 +273,12 @@ form label.top input:required:valid {
     width: 30%;
 }
 
+/** WEATHER BOX **/
+.weather {
+    text-align: center;
+    padding: 3rem;
+}
 
+figcaption {
+    display: block;
+}

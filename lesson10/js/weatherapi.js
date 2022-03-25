@@ -7,6 +7,8 @@ fetch(apiURL)
         const currentTemp = document.querySelector('#current-temp');
         const weathericon = document.querySelector('#weathericon');
 
+        document.querySelector('figcaption').textContent = description;
+
         currentTemp.textContent = jsObject.main.temp.toFixed(0);
         const imgsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
         const imgalt = jsObject.weather[0].description;

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 960px) {
 div.boxes {
     display: grid;
     grid-template-areas:
@@ -20,7 +20,7 @@ div.event {grid-area: a;}
 div.weather {grid-area: d;}
 
 .action-img {
- width: 1px;   
+ width: 50px;   
 }
 /* ---JOIN --- */
 
