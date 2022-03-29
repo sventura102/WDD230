@@ -1,4 +1,4 @@
-const requestURL = 'https://sventura102.github.io/WDD230/lesson4/data.json';
+const requestURL = 'https://sventura102.github.io/WDD230/lesson4/data2.json';
 const cards = document.querySelector('.business');
 
 fetch(requestURL)
@@ -43,28 +43,4 @@ function displayBusinessGrid(business) {
 
     //add the existing gtml div w/ the cards class w/ the section
     cards.appendChild(card);
-
-}
-//-----list version of display----//
-function displayBusinessList(business) {
-    let list = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let p1 = document.createElement('p');
-    let p2 = document.createElement('p');
-    let p3 = document.createElement('p');
-
-    h2.textContent = `${business.name}`;
-    p1.textContent = `Address: ${business.address}`;
-    p2.textContent = `+1${business.number}`;
-    //grab links 
-    a.setAttribute('href', business.link)
-    a.setAttribute('target', "_blank")
-    a.textContent = `${business.link}`;
-
-    list.appendChild(h2);
-    list.appendChild(p1);
-    list.appendChild(p2);
-    list.appendChild(a);
-
-    business.appendChild(list);
 }

@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script defer src="js/business.js"></script>
-        <title>Home Page</title>
+        <title>Contact Us</title>
     </head>
     <body>
         <header>
@@ -39,13 +39,36 @@
                 <span id="currentdate">Saturday, January 29, 2022</span>
             </div>
         </header>
-        <main>
-            <h1>Business Directory</h1>
-            <div class="directory-buttons">
-                <button id="grid-view"><img src="images/grid.png" alt="grid icon"></button>
-                <button id="list-view"><img src="images/list.png" alt="list icon"></button>
+        <main class="contact-main">
+            <h1 class="contact-title">Contact Us</h1>
+            <form method="get" action="thankyou-contact.html" div="app">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="top">Name*<input type="text" name="fullName" required></label>
+                    <label class="top">Company Name*<input type="text" name="companyName" required></label>
+                    <label class="top">Email*<input type="text" name="email" placeholder="name@gmail.com" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Are you a Chamber Member?</legend>
+                    <label class="sbs"><input type="radio" name="membership" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="membership" value="thinking">Thinking About It</label>
+                    <label class="sbs"><input type="radio" name="membership" value="no">Not yet</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions or Concerns</legend>
+                    <textarea row="4" cols="50" name="description" placeholder="Start typing here..."></textarea>
+                </fieldset>
+                <input type="submit" value="Send my Question/Concern" class="submitBtn">
+            </form>
+            <div class="contact-info">
+                <h2>Questions or Concerns?</h2>
+                <p>Don't hesistate to reach out to us! We can answer your questions or direct you to the right department.
+                    Contact us at <b>+1(800)777-5555</b></p>
+                <h2>Office Hours</h2>
+                <p><b>Monday-Thursday:</b> 8am - 5pm</p>
+                <p><b>Friday:</b> 10am - 2pm</p>
+                <p><b>Sunday & Saturday:</b> CLOSED</p>
             </div>
-            <div class="business"></div>
         </main>
         <footer>
             <div class="foot-img-box">

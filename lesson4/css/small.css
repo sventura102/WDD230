@@ -14,13 +14,18 @@ body {
 }
 
 header {
+    text-align: center;
     align-content: center;
     align-items: center;
 }
-.header-img {
-	padding-left: 20px;
+
+div#banner p {
+    color: white;
 }
 
+header h2 {
+    color: white;
+}
 h1 {
     text-align: center;
     color:black;
@@ -60,6 +65,7 @@ nav button {
     color: white;
 }
 nav ul {
+    align-content: center;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
@@ -104,9 +110,9 @@ div.boxes {
     "e"
     "f";
     row-gap: 1rem;
+    text-align: center;
 }
-
-div.action {grid-area: a;}
+div.action { grid-area: a;}
 div.event {grid-area: b;}
 div.weather{grid-area: c;}
 div.new-release {grid-area: d;}
@@ -119,9 +125,24 @@ main figure.action-img{
     padding-left: 25px;
 }
 
+.join-box button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
 /*footer */
 footer {
     color: #eee;
+    text-align: center;
+}
+
+footer h1 {
+    color: white;
+}
+
+footer img {
+    width: 100px;
 }
 
 #lastModified {
@@ -140,7 +161,7 @@ footer {
     box-align: center;
     width: flex;
     border: 3px solid black;
-    padding: 0px;
+    padding: 3rem;
     margin: 20px;
 }
 
@@ -177,10 +198,10 @@ picture.discovery-img {
 .join-main {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1rem;
 }
-
-.membership-levels {
-    display: block;
+.join-title {
+    color: #e36965;
 }
 form fieldset {
     margin: 2rem 0;
@@ -223,7 +244,7 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #e36965;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -239,7 +260,9 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
-
+.membershipLevels h2 {
+    color:#445ba9;
+}
  /*--business directory--*/
 
 .directory-buttons {
@@ -281,4 +304,28 @@ form label.top input:required:valid {
 
 figcaption {
     display: block;
+}
+
+/**CONTACT **/
+
+.contact-title {
+    color:#e36965
+}
+.contact-info {
+    text-align: center;
+    padding: 3rem;
+}
+
+.contact-info h2 {
+    color:#445ba9;
+}
+
+/* THANK YOU */
+
+.thankyou-main {
+    padding: 5rem;
+}
+
+.thankyoucontact-main {
+    padding: 5rem;
 }

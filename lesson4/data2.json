@@ -1,0 +1,28 @@
+{
+    "businesses":[
+        {
+            "imageurl": "https://gdsconnect.com/wp-content/uploads/2019/07/logo-copy.png",
+            "name": "Global Data Systems",
+            "address": "110377 Smokemont Court Las Vegas, NV 89129",
+            "number": "(702) 389-3436",
+            "link": "https://www.gdsconnect.com"
+        },
+
+        {
+            "imageurl": "https://thelovaascenter.com/wp-content/uploads/2021/04/mobile-logo.png",
+            "name": "The Lovaas Center",
+            "address": "5550 W Flamingo Ste C5 Las Vegas, NV 89103",
+            "number": "(702) 877-2520",
+            "link": "https://www.thelovaascenter.com/"
+        },
+
+        {
+            "imageurl": "https://www.csn.edu/__data/assets/image/0009/1260/header-logo-new.png",
+            "name": "College of Southern Nevada",
+            "address": "6375 W Charleston Boulevard WCE310 Las Vegas, NV 89146",
+            "number": "(702) 651-5000",
+            "link": "https://csn.edu/"
+            }
+    ]
+
+}
