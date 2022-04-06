@@ -20,6 +20,7 @@
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="navigation">
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
                     <li><a href="reservation.html">Reservations</a></li>
                     <li><a href="services.html">Services</a>
                     <div class="social">
@@ -65,7 +66,33 @@
                     <p>17 March 2013 - Dedicated</p>
                 </div>
                 <div class="weather">
-
+                    <div class="weather-today">
+                        <h2><span id="today"></span></h2>
+                        <figure>
+                            <img src="" alt="" id="weathericon">
+                        </figure>
+                        <p><span id="desc"></span></p>
+                        <h2><span id="current-temp"></span>&deg;F</h2>
+                        <p>Humidity: <span id="humidity"></span></p>
+                    </div>
+                    <div class="weather-oneday">
+                        <h2><span id="tomorrow"></span></h2>
+                        <figure>
+                            <img src="" alt="" id="weathericon1">
+                        </figure>
+                        <p><span id="desc1"></span></p>
+                        <h2><span id="oneday-temp"></span>&deg;F</h2>
+                        <p>Humidity: <span id="humidity1"></span></p>
+                    </div>
+                    <div class="weather-twoday">
+                        <h2><span id="two-days"></span></h2>
+                        <figure>
+                            <img src="" alt="" id="weathericon2">
+                        </figure>
+                        <p><span id="desc2"></span></p>
+                        <h2><span id="twoday-temp"></span>&deg;F</h2>
+                        <p>Humidity: <span id="humidity2"></span></p>
+                    </div>
                 </div>
             </div>
         </main>
@@ -79,9 +106,11 @@
             <p>tegucigalpa@templeinnandsuites.com</p>
             <p>+1(800) 777 - 5555</p>
             <p>Location</p>
-            <p>&copy; 2022 | Stephanie Ventura | Las Vegas, NV | Last Modified: <span id="lastModified"></span></p>
+            <p>&copy; 2022 | Stephanie Ventura | Las Vegas, NV | Last Modified: <span id="currentdate"></span></p>
         </footer>
         <script src="js/lastModified.js"></script>
         <script src="js/nav.js"></script>
+        <script src="js/weather.js"></script>
+        <script src="js/day.js"></script>
         </body>
 </html>

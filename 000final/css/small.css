@@ -161,6 +161,15 @@ div.weather{grid-area: d;}
 div.temple-info ul li {
     text-decoration: none;
 }
+
+.weather-today, .weather-oneday, .weather-twoday {
+    background-color: #b392ac;
+    box-align: center;
+    width: flex;
+    border: 3px solid white;
+    padding: 3rem;
+    margin: 20px;
+}
 /*FOOTER*/
 
 footer {

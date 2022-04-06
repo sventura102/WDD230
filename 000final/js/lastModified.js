@@ -1,2 +1,2 @@
 const x = document.lastModified;
-document.getElementById("#lastModified").innerHTML = x;
+document.getElementById("currentdate").innerHTML = x;
