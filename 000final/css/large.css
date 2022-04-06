@@ -1,0 +1,15 @@
+@media only screen and (min-width: 64rem) {
+
+/**header**/
+.social {
+    width: 35px;
+    padding: .3rem;
+}
+
+.action h2 {
+    top: 45rem;
+    left: 38rem;
+    font-size: 25px;
+}
+
+}
