@@ -1,6 +1,6 @@
 @media only screen and (min-width: 40rem){
 
-/*header*/
+/*NAV*/
 #hamburgerBtn {
     display: none;
 }
@@ -22,4 +22,17 @@ nav ul li a {
     left: 20rem;
     font-size: 25px;
 }
+/*RESERVE*/
+
+.reserve-main {
+   padding: 50px;
+   margin: 0;
+}
+
+/*SERVICES*/
+.room-types {
+    padding: 30px;
+    text-align: left;
+}
+
 }

@@ -199,6 +199,85 @@ main .temples {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
+
+/*RESERVE PAGE*/
+
+.reserve-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+.reserve-title {
+    color: #f7d1cd;
+    background-color: #b392ac;
+    text-align: center;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #333;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 16px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #735d73;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+.room-types h2 {
+    color: #735d78;
+}
+
+/*THANKYOU*/
+.thankyoureserve-main {
+    text-align: center;
+    padding: 30px;
+}
 /*FOOTER*/
 
 footer {

@@ -7,8 +7,9 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
+        <link rel="shortcut icon" href="favicon.ico">
         <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@300&display=swap');</style>
-        <title>Reservations</title>
+        <title>Services</title>
     </head>
     <body>
         <header>
@@ -31,35 +32,10 @@
                 </ul>
             </nav>
         </header>
-        <main class="reserve-main">
-            <h1 class="reserve-title">Reservation Form</h1>
-            <form method="get" action="thankyou-reserve.html" div="app">
-                <fieldset>
-                    <legend>Registrant Information</legend>
-                    <label class="top">Full Name*<input type="text" name="fullname" required></label>
-                    <label class="top">Phone Number*<input type="text" name="number" required></label>
-                    <label class="top">E-mail<input type="text" name="email" placeholder="name@email.com"></legend>
-                    <label class="top">Home State/Country<input type="text" name="home"></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Reservation</legend>
-                    <label class="top">Location*<input type="text" name="location" required></label>
-                    <label class="top">Date*<input type="date" name="date" min="2022-01-01" max="2122-12-31"></label>
-                    <label class="top">Number of Rooms<input type="number" name="room" min="1" max="5"></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Room Type</legend>
-                    <div>Room Selection</div>
-                    <label class="sbs"><input type="radio" name="room" value="single">Single Room</label>
-                    <label class="sbs"><input type="radio" name="room" value="twin">Twin Room</label>
-                    <label class="sbs"><input type="radio" name="room" value="double">Double Room</label>
-                </fieldset>
-                <fieldset>
-                    <legend>Questions, Comments, or Special Accomodations Here!</legend>
-                    <textarea row="4" cols="50" name="description" placeholder="Tell us how we can help.."></textarea>
-                </fieldset>
-                <input type="submit" value="Reserve Now!" class="submitBtn">
-            </form>
+        <main class="thankyoureserve-main">
+            <h1>Your Reservation has been submitted!</h1>
+                <p>A member of our staff will happily review your reservation and contact you in order to confirm it.</p>
+
         </main>
         <footer>
             <div class="footer-box">
