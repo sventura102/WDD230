@@ -7,7 +7,7 @@
             "phone": "(55) 11-3723-7600",
             "service": ["Clothing rental available", " Distribution Center Nearby"],
             "history": ["1 March 1975 - Announced", "20 March 1976 - Groundbreaking", "30 March 1978 - Dedicated", "22 February 2044 - Rededicared"],
-            "close-schedule": ["Monday, 1 August 2022 - Monday, 15 August 2022", "Wednesday, 7 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022]" ]
+            "closed": ["Monday, 1 August 2022 - Monday, 15 August 2022", "Wednesday, 7 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022]" ]
         },
         {
             "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/suva-fiji/800x500/suva-fiji-temple-lds-264908-wallpaper.jpg",
@@ -16,7 +16,7 @@
             "phone": "(679) 338-8949",
             "services": "Distrbution Center Nearby",
             "history": ["7 May 1998 - Announced", "8 May 1999 - Groundbreaking", "18 June 2000 - Dedicated", "21 February 2016 - Rededicated"],
-            "close-schedule": "Monday, 28 March 2022 - Monday, 6 June 2022"
+            "closed": "Monday, 28 March 2022 - Monday, 6 June 2022"
         },
         {
             "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/dallas-texas/2018/800x500/Dallas-Texas-Temple10.jpg",
@@ -25,7 +25,7 @@
             "phone": "(1) 972-991-1273",
             "services": ["Clothing rental available", "Distribution Center Nearby"],
             "history": ["1 April 1981 - Announced", "22 January 1983 - Groundbreaking", "19 October 1984 - Dedicated", "5 March 1989 - Rededicated"],
-            "close-schedule":["Friday, 8 April 2022 (Limited Operations)", "Monday, 13 June 2022 - Monday, 27 June 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
+            "closed":["Friday, 8 April 2022 (Limited Operations)", "Monday, 13 June 2022 - Monday, 27 June 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"]
         },
         {
             "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mesa-arizona/800x500/mesa-arizona-temple-christmas-1075631-wallpaper.jpg",
@@ -34,7 +34,7 @@
             "phone": "(1) 480-833-1211",
             "services": ["Clothing rental available", "Distribution Center Nearby"],
             "history": ["1 October 1919 - Announced", "25 April 1922 - Groundbreaking", "23 October 1927 - Dedicated", "15 April 1975 - Rededicated", "12 December 2021 - Rededicated"],
-            "close-schedule": ["Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations)", "Monday, 18 July 2022 - Monday, 1 August 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022"]
+            "closed": ["Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations)", "Monday, 18 July 2022 - Monday, 1 August 2022", "Saturday, 1 October 2022", "Wednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022"]
         }
     ]
 }

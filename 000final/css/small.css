@@ -170,6 +170,35 @@ div.temple-info ul li {
     padding: 3rem;
     margin: 20px;
 }
+
+/*TEMPLE PAGE*/
+.temple-title {
+    text-align: center;
+}
+main .temples {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.temples img {
+    margin-top: 15px;
+    width: auto;
+	max-width: 500px;
+    height: 200px;
+    border: 2px solid #D4D3D3;
+    border-radius: 10px;
+}
+.temples {
+    margin: 0px; 
+}
+.temples section {
+    background-color: #e8c2ca;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 3px;
+    border: 1px solid #D4D3D3;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
 /*FOOTER*/
 
 footer {
