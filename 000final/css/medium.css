@@ -30,9 +30,32 @@ nav ul li a {
 }
 
 /*SERVICES*/
-.room-types {
-    padding: 30px;
-    text-align: left;
+section.services div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+
+div.img-left picture {
+    order: 2;
+}
+
+div.img-left p {
+    order: 1;
+}
+
+div.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin: 0;
+}
+
+.servicescontact-info {
+    padding: 20px;
+    grid-column: 2;
 }
 
 }
