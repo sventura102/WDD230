@@ -161,6 +161,7 @@ div.weather{grid-area: d;}
 div.temple-info ul li {
     text-decoration: none;
 }
+/*WEATHER*/
 
 .weather-today, .weather-oneday, .weather-twoday {
     background-color: #b392ac;
